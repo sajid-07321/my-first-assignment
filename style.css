@@ -125,13 +125,115 @@ section h2{
 }
 
 .subscribtion-card div{
-    background-color: #0D1B2A;
+    background-color: #7c8791;
     width: 300PX;
     height: 350PX;
+    border-radius: 10px;
 }
 
-.subscribtion-card .common-card{
-    background-color: rgb(241, 240, 237);
+/* left card */
+
+.common-card-left h5{
+    color: #f0ebeb;
+    font-size: 15px;
+    
+}
+
+.common-card-left h2{
+    color: white;
+    margin-top: auto;
+}
+
+.common-card-left h6{
+    color: white;
+    margin: auto;
+    padding: 10px;
+    
+} 
+
+.common-card-left li{
+    display: grid;
+    font-size: small;
     text-align: left;
-
 }
+
+.common-card-left .left-btn{
+    height: 35px;
+    width: 230px;
+    border-radius: 5px;
+    color: #2563EB;
+    background-color: white;
+    margin-top: 100px
+}
+
+/* middele card */
+.subscribtion-card .uncommon-card{
+    background-color: #1d344b;
+}
+
+.uncommon-card h5{
+    color: #f0c03c;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.uncommon-card h2{
+    margin-top: auto;
+    color: #f0c03c;
+}
+
+.uncommon-card h6{
+    color: white;
+}
+
+.uncommon-card li{
+    display: grid;
+    font-size: small;
+    color: white;
+    text-align: left;
+}
+
+.uncommon-card .middele-btn{
+    height: 35px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: #2563EB;
+    color: white;
+    margin-top: 130px;
+}
+
+/* right card */
+
+.common-card-right h5{
+    color: #f0ebeb;
+    font-size: 15px;
+    
+}
+
+.common-card-right h2{
+    color: white;
+    margin-top: auto;
+}
+
+.common-card-right h6{
+    color: white;
+    margin: auto;
+    padding: 10px;
+    
+} 
+
+.common-card-right li{
+    display: grid;
+    font-size: small;
+    text-align: left;
+}
+
+.common-card-right .right-btn{
+    height: 35px;
+    width: 230px;
+    border-radius: 5px;
+    color: #2563EB;
+    background-color: white;
+    margin-top: 100px
+}
+
