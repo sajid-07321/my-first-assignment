@@ -12,7 +12,7 @@ nav{
 
 }
 
-ul{
+ nav ul{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -112,17 +112,25 @@ section{
 
 /* subscription */
 section h2{
-    margin-top: 120px;
-    
+    margin-top: 150px;
 }
+
+section p{
+    font-size: small;
+    margin-top: 10px;
+}
+
+
 .subscribtion-card{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding-left: 150px;
-    padding-right: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
     margin-top: 30px;
     gap: 30px;
+    
 }
+
+
 
 .subscribtion-card div{
     background-color: #7c8791;
@@ -136,26 +144,30 @@ section h2{
 .common-card-left h5{
     color: #f0ebeb;
     font-size: 15px;
-    
+    margin-top: 15px;
+    padding-right: 140px;
 }
 
 .common-card-left h2{
     color: white;
-    margin-top: auto;
+    margin-top: 2px;
+    padding-right: 140px;
 }
 
 .common-card-left h6{
     color: white;
     margin: auto;
-    padding: 10px;
+    padding-right: 140px;
     
 } 
 
-.common-card-left li{
-    display: grid;
-    font-size: small;
+.common-card-left ul{
+    font-size: 15px;
     text-align: left;
+    padding-left: 50px;
+    margin-top: 20px;
 }
+
 
 .common-card-left .left-btn{
     height: 35px;
@@ -163,7 +175,8 @@ section h2{
     border-radius: 5px;
     color: #2563EB;
     background-color: white;
-    margin-top: 100px
+    margin-top: 50px;
+    border: none;
 }
 
 /* middele card */
@@ -174,23 +187,27 @@ section h2{
 .uncommon-card h5{
     color: #f0c03c;
     font-size: 20px;
-    padding-left: 5px;
+    margin-top: 15px;
+    padding-right: 180px;
 }
 
 .uncommon-card h2{
     margin-top: auto;
     color: #f0c03c;
+    padding-right: 140px;
 }
 
 .uncommon-card h6{
     color: white;
+    padding-right: 140px;
 }
 
-.uncommon-card li{
-    display: grid;
-    font-size: small;
+.uncommon-card ul{
+    font-size: 15px;
     color: white;
     text-align: left;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
 .uncommon-card .middele-btn{
@@ -199,7 +216,8 @@ section h2{
     border-radius: 5px;
     background-color: #2563EB;
     color: white;
-    margin-top: 130px;
+    margin-top: 45px;
+    border: none;
 }
 
 /* right card */
@@ -207,33 +225,38 @@ section h2{
 .common-card-right h5{
     color: #f0ebeb;
     font-size: 15px;
-    
+    margin-top: 15px;
+    padding-right: 180px;
 }
 
 .common-card-right h2{
     color: white;
-    margin-top: auto;
+    margin-top: 5px;
+    padding-right: 120px;
+
 }
 
 .common-card-right h6{
     color: white;
     margin: auto;
-    padding: 10px;
+    padding-right: 100px;
     
 } 
 
-.common-card-right li{
-    display: grid;
-    font-size: small;
+.common-card-right ul{
+    font-size: 15px;
     text-align: left;
+    padding-left: 50px;
+    margin-top: 20px;
 }
 
 .common-card-right .right-btn{
+    margin-top: 50px;
     height: 35px;
     width: 230px;
     border-radius: 5px;
     color: #2563EB;
     background-color: white;
-    margin-top: 100px
+    border: none;
 }
 
