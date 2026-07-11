@@ -366,3 +366,15 @@ section p{
     }
 
 }
+/* footer */
+footer{
+    background-color: #a181ec;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #e5e7eb;
+}
+
+footer p{
+    color: black;
+}
